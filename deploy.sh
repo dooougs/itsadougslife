@@ -14,4 +14,4 @@ git add .
 git commit -m "Deploy from CircleCI"
 
 # use --quiet to avoid printing token in build logs
-git push --force --quiet --set-upstream master:gh-pages
+git push --force --quiet --set-upstream master:gh-pages master
