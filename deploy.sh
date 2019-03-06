@@ -1,6 +1,7 @@
 #! /bin/bash
 set -e # stop at first failing command
 
+cd blog
 hugo -v
 cd public
 
