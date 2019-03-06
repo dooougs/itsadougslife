@@ -5,6 +5,7 @@ jobs:
       - image: cibuilds/hugo:latest
     steps:
       - checkout
+      - run: chmod a+x ./deploy.sh
       - run: ./deploy.sh
     branches:
       only:
