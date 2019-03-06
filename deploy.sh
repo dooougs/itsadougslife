@@ -6,6 +6,8 @@ hugo -v
 cd public
 
 git init
+git config user.name "dooougs"
+git config user.email "e@dou.gs"
 
 echo "itsadougs.life" > CNAME
 git add .
