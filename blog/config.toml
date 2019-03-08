@@ -17,3 +17,7 @@ platforms = ["twitter","email"]
 
 [taxonomies]
 tag ="tags"
+
+
+[params.assets]
+customCSS = ["css/custom.css"]
