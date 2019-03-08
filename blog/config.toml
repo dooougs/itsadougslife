@@ -2,3 +2,18 @@ baseURL = "http://itsadougs.life"
 languageCode = "en-us"
 title = "it's a dougs life"
 theme = "kiss"
+
+[params.info]
+enableSocial = true
+
+
+[params.social]
+twitter = "d0ugs"
+email = "e@dou.gs"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["twitter","email"]
+
+[taxonomies]
+tag ="tags"
