@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+{{ template "_internal/opengraph.html" . }}
+<meta property='og:image' content="{{"/favicon-16x16.png" | absURL }}" />
 {{ if eq .IsHome false }}
 <title>{{ .Title }} | {{ .Site.Title }}</title>
 {{ else }}
 <title>{{ .Site.Params.Info.homeTitle }}</title>
 {{ end }}
-{{ if .Site.Params.Info.enableSocial }}
-{{- partial "social/opengraph" . -}}
-{{ end }}
+
 {{ if .Site.Params.rss }}
 <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
@@ -26,6 +26,6 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<meta property="og:image" content="/favicon-32x32.png">
+
 </head>
 <body>
