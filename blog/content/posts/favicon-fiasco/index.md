@@ -14,8 +14,7 @@ Let me share it ... let me post it on Teams (Microsoft Teams) to my work colleag
 It must be a faviocon thing, maybe an interaction with the way github pages works. Lot's of googling later investigating all of githubpages, hugo, hugo themes, favicons and NOTHING :cold_sweat:
 
 Then I posted on twitter and had the same result, at this point not unexpected but it did make me think and I started googling how twitter generates previews from favicon ... it DOESN'T!
-
-:bulb:
+# :high_brightness:
 
 favicon is oldskool. The [Open Graph protocol](http://ogp.me/) is what one needs.
 
