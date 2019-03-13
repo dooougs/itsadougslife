@@ -1,7 +1,6 @@
 ---
 title: "Favicon Fiasco"
 date: 2019-03-08T16:37:34Z
-draft: true
 ---
 
 I'm so excited!!! I have a blog!
