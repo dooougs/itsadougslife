@@ -3,9 +3,6 @@ Title: "too many computers"
 Date: 2019-03-17T20:59:02Z
 tags: ["technology"]
 ---
-
-too many computers
-
 Every time I find a few spare minutes to haxor the codes I grab the closest computer, the one not being used by other family members, and GO!
 
 For me this is a relatively new phenomenon brought about by my adoption of, initially npm and now yarn and using all the open source code there is. I’ve also had to give up expectations of “proper” debugging and IDE support tools. Like a lot of the world I’ve also adopted VSCode.
