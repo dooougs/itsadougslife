@@ -1,7 +1,6 @@
 ---
 title: "Old Skool"
 date: 2019-04-15T14:30:02+01:00
-draft: true
 ---
 
 Google ["CPC Emulator online"](https://www.google.com/search?q=cpc+emulator+online)
