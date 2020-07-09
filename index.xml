@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>it&#39;s a dougs life</title>
+    <link>https://itsadougs.life/</link>
+    <description>Recent content on it&#39;s a dougs life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2019 14:30:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://itsadougs.life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Old Skool</title>
+      <link>https://itsadougs.life/posts/old-skool/</link>
+      <pubDate>Mon, 15 Apr 2019 14:30:02 +0100</pubDate>
+      
+      <guid>https://itsadougs.life/posts/old-skool/</guid>
+      <description>Google &amp;ldquo;CPC Emulator online&amp;rdquo;
+Oooooooo 👊
+Google &amp;ldquo;dougal kennedy cpc amstrad&amp;rdquo;
+OK, so it&amp;rsquo;s not the top hit &amp;hellip;
+https://cpcrulez.fr/GamesTest/urge.htm
+Download the zip, upload the zip and &amp;hellip;
+  First published in Amstrad Computer User ACU way back in Feb 1992 when we used to use 💾 to store and share stuff.
+So this isn&amp;rsquo;t exciting in itself except to say that the pinnacle of my childhood computing has been preserved by the internet.</description>
+    </item>
+    
+    <item>
+      <title>too many computers</title>
+      <link>https://itsadougs.life/posts/too-many-computers/</link>
+      <pubDate>Sun, 17 Mar 2019 20:59:02 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/too-many-computers/</guid>
+      <description>Every time I find a few spare minutes to haxor the codes I grab the closest computer, the one not being used by other family members, and GO!
+For me this is a relatively new phenomenon brought about by my adoption of, initially npm and now yarn and using all the open source code there is. I’ve also had to give up expectations of “proper” debugging and IDE support tools. Like a lot of the world I’ve also adopted VSCode.</description>
+    </item>
+    
+    <item>
+      <title>Unicode dougs</title>
+      <link>https://itsadougs.life/posts/unicode-dougs/</link>
+      <pubDate>Sun, 10 Mar 2019 10:00:01 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/unicode-dougs/</guid>
+      <description>D҈O҈U҈G҈S҈
+that is all.</description>
+    </item>
+    
+    <item>
+      <title>Favicon Fiasco</title>
+      <link>https://itsadougs.life/posts/favicon-fiasco/</link>
+      <pubDate>Fri, 08 Mar 2019 16:37:34 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/favicon-fiasco/</guid>
+      <description>I&amp;rsquo;m so excited!!! I have a blog!
+Let me share it &amp;hellip; let me post it on Teams (Microsoft Teams) to my work colleagues &amp;hellip;
+  &amp;hellip; lovely, except the little picture image isn&amp;rsquo;t the one I thought I setup.
+It must be a faviocon thing, maybe an interaction with the way github pages works. Lot&amp;rsquo;s of googling later investigating all of githubpages, hugo, hugo themes, favicons and NOTHING 😰</description>
+    </item>
+    
+    <item>
+      <title>Free blog</title>
+      <link>https://itsadougs.life/posts/free-blog/</link>
+      <pubDate>Thu, 07 Mar 2019 11:59:03 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/free-blog/</guid>
+      <description>Build a blog for free.
+A free blog is doable if you work in IT, otherwise just pay someone to do it.
+This blog has three parts: the storage is on GitHub; the framework is Hugo; and the deploy engine is CircleCI.
+These were just the best fit at the time, free and simple. This simplicity does mean limited functionality but the remit was just a basic blog so this isn’t an issue.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://itsadougs.life/posts/my-first-post/</link>
+      <pubDate>Wed, 06 Mar 2019 09:48:48 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/my-first-post/</guid>
+      <description>Beginning at the beginning &amp;hellip;
+  </description>
+    </item>
+    
+  </channel>
+</rss>

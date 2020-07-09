@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on it&#39;s a dougs life</title>
+    <link>https://itsadougs.life/tags/technology/</link>
+    <description>Recent content in technology on it&#39;s a dougs life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2019 20:59:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsadougs.life/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>too many computers</title>
+      <link>https://itsadougs.life/posts/too-many-computers/</link>
+      <pubDate>Sun, 17 Mar 2019 20:59:02 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/too-many-computers/</guid>
+      <description>Every time I find a few spare minutes to haxor the codes I grab the closest computer, the one not being used by other family members, and GO!
+For me this is a relatively new phenomenon brought about by my adoption of, initially npm and now yarn and using all the open source code there is. I’ve also had to give up expectations of “proper” debugging and IDE support tools. Like a lot of the world I’ve also adopted VSCode.</description>
+    </item>
+    
+    <item>
+      <title>Unicode dougs</title>
+      <link>https://itsadougs.life/posts/unicode-dougs/</link>
+      <pubDate>Sun, 10 Mar 2019 10:00:01 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/unicode-dougs/</guid>
+      <description>D҈O҈U҈G҈S҈
+that is all.</description>
+    </item>
+    
+    <item>
+      <title>Free blog</title>
+      <link>https://itsadougs.life/posts/free-blog/</link>
+      <pubDate>Thu, 07 Mar 2019 11:59:03 +0000</pubDate>
+      
+      <guid>https://itsadougs.life/posts/free-blog/</guid>
+      <description>Build a blog for free.
+A free blog is doable if you work in IT, otherwise just pay someone to do it.
+This blog has three parts: the storage is on GitHub; the framework is Hugo; and the deploy engine is CircleCI.
+These were just the best fit at the time, free and simple. This simplicity does mean limited functionality but the remit was just a basic blog so this isn’t an issue.</description>
+    </item>
+    
+  </channel>
+</rss>
