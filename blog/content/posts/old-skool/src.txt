@@ -1,0 +1,53 @@
+10 bm=900: li=3 :hi=10000 : h$= "Ams t rad" : 1=1 : bo=900 : g = 10 : nb=50 : S 
+YMBOL 255 , 129, 1 29 , 102 , 24 , 24 , 102 , 129 , 129 ; SYMBOL 254, 60 , 66 , 165 
+,129,129.165, 66, 60 : SYMBOL 253 ,24 .36, 102, 153, 153, 102, 36 ,24: SY 
+MBOL 252,60, 126 , 94 , 159, 159,255 : st$= M By Dougal Kennedy 
+20 q=l: BORDER 17 : FOR i=40 TO 0 STEP -l:FOR j = 0 TO 30:NEXT:OU 
+T &BC00.1:OUT &BD00 , i : NEXT : PAPER 0 : MODE 1 : SYMBOL 251,16,40,6 
+8, 108. 56 , 56, 16, 16:LOCATE 18,1: PEN 1 : PRINT "URGE" : LOCATE 28,2 
+5: PEN 2: PRINT "TIME" ; bo ; LOCATE 1,24: PRINT"SCORE" ; s ; TAB ( 30 ) ; " 
+LEVEL" ;1 [9E] 
+
+30 PRINT h$,hi:F0R i=l TO g : LOCATE INT (RND*40 ) +1 , INT( RND*22 ) 
++2: PRINT CHR$( 254) : NEXT: PEN 3 : FOR i=l TO nb : LOCATE INT (RND* 4 
+0)+l , INT(RND*22)+2 : PRINT CHR$ ( 253 ): NEXT ; PEN 1 ; LOCATE 20,12:P 
+RINT CHRS { 252 )+ H M : LOCATE INT (END* 4 ) +1 , I NT ( RND* 22 ) +2 : PRINT C 
+HR$(251) [30] 
+
+40 n=30:ms5 :x=n: y=m: INK 0,0:INK 1,11:INK 2,24rINK 3,6:PEN 2: 
+d=INT(RND*25) -FOR i=l TO 40: FOR j = 0 TO 30: NEXT: OUT &BC0O,l:O 
+UT &BD00, i : NEXT: BORDER 0:IF d=l THEN LOCATE INT (RND* 3 9 ) +1 , IN 
+T(RND*22)+2:PRINT CHR$ { 186 ): BORDER 6 , 0 : G=G+RND* 5+5 : INK 3,15 
+ELSE BORDER 0 [64] 
+
+50 LOCATE x,y:PEN 1: PRINT CHR$ ( 255 ) : PEN 3 : LOCATE 32,25: PRINT 
+bo:r=INKEY{72)+l+(INKEY(73>+l >*2+( INKEY(74)+1 >*4+{ INKEY<75) 
++1)*8:IF r>0 THEN SOUND 1,239,5,15: SOUND 2 , 1 90 , 5 , 1 5 : SOUND 4, 
+159,5.15:L0CATE 28,1:PRINT MID$ (st* , q, 7) :q=q+l : IF q=LEN{ st $ ) 
+-7 THEN q=l [AA] 
+
+60 n=x:m=y:IF r=l AND y>2 THEN y=y-l ELSE IF r=2 AND y<23 TH 
+EN y=y+l ELSE IF r=4 AND x>l THEN x=x-l ELSE IF r=8 AND x<40 
+THEN x=x+l [7D] 
+
+70 LOCATE x,y :a = ASC(COPYCHR$UO) ) : IF a = 254 THEN s = s+ 100*1 EL 
+SE IF a=253 THEN GOSUB 90 ELSE IF a=252 THEN nb=nb+5 : bm= INT( 
+bm-(bm/10} ): 1=1+1 :bo-bm: GOTO 20 ELSE IF a=251 THEN bo=bo+200 
+:s = s+(1000*U74) } ELSE IF a=186 THEN s = s + l 0000 : INK 1,26:INK 
+0,3: BORDER 3 [63] 
+
+80 bo=bo-2:IF bo<l THEN li=0: GOSUB 90 ELSE PEN 2 : LOCATE 6,24 
+: PRINT s:PEN 3 : LOCATE 17,24: PRINT li-PEN 1 : LOCATE n,m: PRINT 
+" " ; LOCATE x,y:PRINT CHR$ ( 255 ): GOTO 50 [2C] 
+
+90 li=li-l:IF li>0 THEN RETURN ELSE LOCATE n , no : PRINT " " : PEN 
+2: LOCATE 15,12:PRINT CHR$ { 22 ) CHR$ { 1 ) "GAME OVER" : IF s>hi THE 
+N 100 ELSE PEN 1: LOCATE 12 . 13 ; PRINT" ANY KEY TO START " CHRS ( 22 
+) CHR$ (0); CLEAR INPUT : CALL &BB18 : nb= 50 : 1 = 1 : 1 i = 3 : bin- 900 : bo = 900 
+: s=0:GOTO 20 [7A] 
+
+100. CLEAR INPUT: INK 3,15,6: BORDER 5 : LOCATE 1,20: PR I NT CHRS { 2 
+2 }CHR$ (0) : INPUT " You Got A New Hi score Please Ente 
+
+r Your Name (10 Letters max) ";h$:PRINT CHRS { 22 ) CHRS ( 1) : IF L 
+EN{b$>>lG THEN 100 ELSE hi=s:INK 3,6: BORDER 0:GOTO 90 [DF] 
